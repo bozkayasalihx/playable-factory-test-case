@@ -139,7 +139,7 @@ const PopupComp: React.FC<{
                     className='bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
                     type='submit'
                 >
-                    {val ? "Update To-do" : "Create To-do"}
+                    {currentTodo ? "Update To-do" : "Create To-do"}
                 </button>
             </div>
         </form>
