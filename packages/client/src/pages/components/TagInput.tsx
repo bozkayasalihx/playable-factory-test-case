@@ -23,8 +23,8 @@ const TagsInput: React.FC<ITagsInput> = ({
             ref: React.MutableRefObject<HTMLInputElement | null>
         ) => {
             e.stopPropagation();
-            if (e.key == "Enter") {
-                inputRef.current?.focus();
+            if (e.key === "Enter") {
+                e.preventDefault();
             }
             if (e.key !== "Enter") {
                 return;

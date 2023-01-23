@@ -90,8 +90,6 @@ const PopupComp: React.FC<{
                     todoId: currentTodo.id,
                 });
             }
-            setShow(false);
-            await listtodos();
         }
 
         if (!image && !file) {
@@ -109,10 +107,10 @@ const PopupComp: React.FC<{
                     todoId: currentTodo.id,
                 });
             }
-
-            // setShow(false);
-            await listtodos();
         }
+
+        setShow(false);
+        await listtodos();
     };
     return (
         <form

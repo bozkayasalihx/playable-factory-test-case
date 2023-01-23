@@ -20,7 +20,6 @@ const TodoCard: React.FC<{
             className='max-w-sm rounded overflow-hidden shadow-lg flex mt-4'
             onClick={ev => {
                 setShow(true);
-                console.log("maer");
                 dispatch(selectTodo(data));
             }}
         >
