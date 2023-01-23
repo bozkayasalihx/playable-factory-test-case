@@ -64,7 +64,7 @@ const TodoCard: React.FC<{
                     {data.fileUrl && (
                         <div className='absolute bottom-2 right-2'>
                             <a
-                                href={`d3evc41n4oj5ty.cloudfront.net/${data.fileUrl}`}
+                                href={`https://d3evc41n4oj5ty.cloudfront.net/${data.fileUrl}`}
                                 target='_blank'
                                 rel='noreferrer'
                             >
